@@ -3,6 +3,8 @@ void setup() {
 }
 
 
+
+
 void loop() {
   if (Serial.available() > 0) { // Jika ada data yang tersedia di Serial
     int sensorValue = Serial.parseInt(); // Baca nilai yang dikirim melalui Serial
