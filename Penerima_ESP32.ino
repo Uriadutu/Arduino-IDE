@@ -1,6 +1,6 @@
 void setup() {
   Serial.begin(9600); // Mulai komunikasi serial dengan kecepatan 9600 bps
-  Serial.println()
+  Serial.println("Hello");
 }
 
 
